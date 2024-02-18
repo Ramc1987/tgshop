@@ -80,6 +80,6 @@ Telegram.WebApp.onEvent("mainButtonClicked", function () {
 
 let userCard = document.getElementById("user-card")
 let p = document.createElement("p")
-p.innerText = `${tg.initDataUnsave.first_name}`
+p.innerText = `${tg.initDataUnsave.user.first_name}`
 
 userCard.appendChild(p)
